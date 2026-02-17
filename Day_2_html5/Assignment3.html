@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Learning Course Registration Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Register for professional certification courses online.">
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>ProLearn Certification Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Program</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+
+        <section id="about">
+            <h2>About the Certification Program</h2>
+            <p>
+                Join our industry-recognized certification courses and upgrade
+                your professional skills with expert-led training.
+            </p>
+
+            
+            <h3>Enrollment Progress</h3>
+            <progress value="60" max="100"></progress>
+            <p>60% Seats Filled</p>
+
+            <h3>Watch Course Introduction</h3>
+            <video width="600" controls>
+                <source src="./Video1.mp4" type="video/mp4">
+                <source src="./intro.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="register">
+            <h2>Course Registration Form</h2>
+
+            <form action="#" method="post">
+
+                <label for="course">Select Course:</label>
+                <input type="text" id="course" name="course"
+                       list="courseList"
+                       placeholder="Start typing course name..."
+                       required>
+
+                <datalist id="courseList">
+                    <option value="Full Stack Web Development">
+                    <option value="Data Science & AI">
+                    <option value="Cyber Security">
+                    <option value="Cloud Computing">
+                    <option value="Java Backend Development">
+                </datalist>
+
+                <br><br>
+
+                <label for="batch">Select Batch Month:</label>
+                <input type="month" id="batch" name="batch" required>
+
+                <br><br>
+
+                <label for="session">Preferred Session Timing:</label>
+                <input type="time" id="session" name="session" required>
+
+                <br><br>
+
+                <label for="skill">Rate Your Skill Level (1-10):</label>
+                <input type="range" id="skill" name="skill"
+                       min="1" max="10" value="5">
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="example@email.com"
+                       required>
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{10}"
+                       placeholder="Enter 10-digit number"
+                       required>
+
+                <br><br>
+
+                <button type="submit">Enroll Now</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <h3>Contact Information</h3>
+        <address>
+            ProLearn Academy<br>
+            Email: support@prolearn.com<br>
+            Phone: +91 9876543210
+        </address>
+        <p>&copy; 2026 ProLearn Academy. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
