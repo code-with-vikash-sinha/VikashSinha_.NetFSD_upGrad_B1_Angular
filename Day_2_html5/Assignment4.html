@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SkyWay Travel Booking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Book flights easily with SkyWay Travel.">
+</head>
+
+<body>
+
+<header>
+    <h1>SkyWay Travel & Tourism</h1>
+    <nav>
+        <a href="#booking">Book Now</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>Explore the World with Us</h2>
+
+    <video width="500" controls poster="travel.jpg">
+        <source src="Video1.mp4" type="video/mp4">
+        <source src="intro.webm" type="video/webm">
+    </video>
+
+    <audio controls loop>
+        <source src="Audio1.mp4" type="audio/mp4">
+        Your browser does not support audio.
+    </audio>
+</section>
+
+<section id="booking">
+<h2>Flight Booking Form</h2>
+
+<form action="#" method="post">
+
+<label>Source City:</label>
+<input type="text" list="cities" required>
+<datalist id="cities">
+<option value="Delhi">
+<option value="Mumbai">
+<option value="Bangalore">
+<option value="Kolkata">
+</datalist>
+
+<br><br>
+
+<label>Destination City:</label>
+<input type="text" list="cities" required>
+
+<br><br>
+
+<label>Departure Date:</label>
+<input type="date" required>
+
+<br><br>
+
+<label>Return Date:</label>
+<input type="date" required>
+
+<br><br>
+
+<label>Travel Class:</label>
+<select required>
+<option value="">Select</option>
+<option>Economy</option>
+<option>Business</option>
+<option>First Class</option>
+</select>
+
+<br><br>
+
+<label>Preferred Airline:</label>
+<input type="text" list="airlines" placeholder="Select or type airline" required>
+<datalist id="airlines">
+<option value="IndiGo">
+<option value="Air India">
+<option value="Emirates">
+</datalist>
+
+<br><br>
+
+<label>Number of Passengers:</label>
+<input type="number" min="1" max="10" required>
+
+<br><br>
+
+<label>Meal Preference Color Tag:</label>
+<input type="color">
+
+<br><br>
+
+<label>Special Assistance Notes:</label>
+<textarea placeholder="Mention wheelchair assistance, medical needs etc."></textarea>
+
+<br><br>
+
+<button type="submit">Book Flight</button>
+
+</form>
+</section>
+
+</main>
+
+<footer id="contact">
+<p>Contact: support@skyway.com</p>
+</footer>
+
+</body>
+</html>
