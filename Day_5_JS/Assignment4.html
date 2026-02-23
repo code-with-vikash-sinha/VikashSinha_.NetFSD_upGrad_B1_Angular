@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile Manager</title>
+    <style>
+        #profileBox {
+            border: 2px solid black;
+            padding: 10px;
+            width: 250px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Profile</h2>
+
+    <div id="profileBox"></div>
+
+    <button onclick="updateStudentProfile(student)">Show Profile</button>
+    <button onclick="updateMarks(95)">Update Marks</button>
+
+    <script>
+
+        // Global object
+        let student = {
+            name: "Amit",
+            rollNo: 101,
+            marks: 85
+        };
+
+        function updateStudentProfile(studentObj) {
+
+            document.getElementById("profileBox").innerHTML =
+                "<p>Name: " + studentObj.name + "</p>" +
+                "<p>Roll No: " + studentObj.rollNo + "</p>" +
+                "<p>Marks: " + studentObj.marks + "</p>";
+        }
+
+        function updateMarks(newMarks) {
+
+            student.marks = newMarks; 
+            updateStudentProfile(student);
+        }
+
+    </script>
+
+</body>
+</html>
