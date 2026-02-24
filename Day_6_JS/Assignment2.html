@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Register</h2>
+
+    Name:
+    <input type="text" id="name" onchange="validateName()">
+    <span id="nameMsg"></span>
+    <br><br>
+
+    Email:
+    <input type="text" id="email" onchange="validateEmail()">
+    <span id="emailMsg"></span>
+    <br><br>
+
+    Age:
+    <input type="number" id="age" onchange="validateAge()">
+    <span id="ageMsg"></span>
+    <br><br>
+
+    <button onclick="saveUser()">Submit</button>
+
+    <script>
+        function validateName() {
+            let name = document.getElementById("name").value;
+            if (name === "") {
+                document.getElementById("nameMsg").innerHTML = "Name cannot be empty";
+            } else {
+                document.getElementById("nameMsg").innerHTML = "✓ Valid";
+            }
+        }
+
+        function validateEmail() {
+            let email = document.getElementById("email").value;
+            if (!email.includes("@")) {
+                document.getElementById("emailMsg").innerHTML = "Invalid Email";
+            } else {
+                document.getElementById("emailMsg").innerHTML = "✓ Valid";
+            }
+        }
+
+        function validateAge() {
+            let age = document.getElementById("age").value;
+            if (age <= 18) {
+                document.getElementById("ageMsg").innerHTML = "Age must be greater than 18";
+            } else {
+                document.getElementById("ageMsg").innerHTML = "✓ Valid";
+            }
+        }
+
+        function saveUser() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let age = document.getElementById("age").value;
+
+            if (name && email.includes("@") && age > 18) {
+                sessionStorage.setItem("userName", name);
+                sessionStorage.setItem("userEmail", email);
+                sessionStorage.setItem("userAge", age);
+                alert("User Data Saved in Session Storage");
+            } else {
+                alert("Fix validation errors first!");
+            }
+        }
+    </script>
+
+</body>
+</html>

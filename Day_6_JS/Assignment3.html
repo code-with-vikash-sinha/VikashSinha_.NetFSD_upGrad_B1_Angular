@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location Logger</title>
+</head>
+<body onload="loadHistory()">
+
+    <h2>Location Logger</h2>
+    <button onclick="getLocation()">Get My Location</button>
+
+    <p id="output"></p>
+    <h3>Last 5 Locations:</h3>
+    <ul id="history"></ul>
+
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(success, error);
+            } else {
+                alert("Geolocation not supported.");
+            }
+        }
+
+        function success(position) {
+            let lat = position.coords.latitude;
+            let lon = position.coords.longitude;
+
+            document.getElementById("output").innerHTML =
+                "Latitude: " + lat + "<br>Longitude: " + lon;
+
+            let locations = JSON.parse(localStorage.getItem("locations")) || [];
+
+            locations.unshift({ latitude: lat, longitude: lon });
+
+            if (locations.length > 5) {
+                locations.pop();
+            }
+
+            localStorage.setItem("locations", JSON.stringify(locations));
+            loadHistory();
+        }
+
+        function error(err) {
+            if (err.code === 1) {
+                alert("Permission Denied");
+            } else if (err.code === 2) {
+                alert("Location Unavailable");
+            } else if (err.code === 3) {
+                alert("Request Timeout");
+            }
+        }
+
+        function loadHistory() {
+            let locations = JSON.parse(localStorage.getItem("locations")) || [];
+            let historyList = document.getElementById("history");
+            historyList.innerHTML = "";
+
+            locations.forEach(loc => {
+                let li = document.createElement("li");
+                li.innerHTML = "Lat: " + loc.latitude + ", Lon: " + loc.longitude;
+                historyList.appendChild(li);
+            });
+        }
+    </script>
+
+</body>
+</html>
