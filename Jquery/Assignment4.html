@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+<button id="btn">Click Me</button>
+
+<br><br>
+
+<img id="img" src="https://picsum.photos/200">
+
+<p id="para">Double click to hide me</p>
+
+<input id="name" placeholder="Enter name">
+
+<form id="form">
+<button type="submit">Submit</button>
+</form>
+
+<script>
+
+$("#btn").click(function(){
+alert("Button clicked")
+})
+
+$("#img").hover(function(){
+$(this).attr("src","https://picsum.photos/201")
+})
+
+$("#para").dblclick(function(){
+$(this).hide()
+})
+
+$("#name").blur(function(){
+alert("Input lost focus")
+})
+
+$("#form").submit(function(e){
+e.preventDefault()
+alert("Form submission prevented")
+})
+
+</script>
+
+</body>
+</html>

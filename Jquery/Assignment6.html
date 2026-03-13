@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+<button id="load">Load Users</button>
+
+<input id="search" placeholder="Search user">
+
+<p id="loader" style="display:none">Loading...</p>
+
+<table border="1">
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+</tr>
+</thead>
+
+<tbody id="data"></tbody>
+
+</table>
+
+<script>
+
+let users=[]
+
+$("#load").click(function(){
+
+$("#loader").show()
+
+$.ajax({
+
+url:"https://jsonplaceholder.typicode.com/users",
+
+success:function(res){
+
+$("#loader").hide()
+
+users=res
+
+display(res)
+
+},
+
+error:function(){
+alert("API Error")
+}
+
+})
+
+})
+
+function display(list){
+
+$("#data").empty()
+
+list.forEach(u=>{
+$("#data").append(`<tr>
+<td>${u.name}</td>
+<td>${u.email}</td>
+</tr>`)
+})
+
+}
+
+$("#search").keyup(function(){
+
+let val=$(this).val().toLowerCase()
+
+let filtered=users.filter(u=>u.name.toLowerCase().includes(val))
+
+display(filtered)
+
+})
+
+</script>
+
+</body>
+</html>

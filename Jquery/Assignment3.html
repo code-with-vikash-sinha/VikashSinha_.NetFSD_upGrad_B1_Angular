@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+<h2>Todo List</h2>
+
+<input type="text" id="task">
+<button id="addTask">Add</button>
+<button id="clear">Clear All</button>
+
+<ul id="todo"></ul>
+
+<script>
+
+$("#addTask").click(function(){
+
+let task=$("#task").val()
+
+$("#todo").append("<li>"+task+" <button class='delete'>Delete</button></li>")
+
+$("#task").val("")
+
+})
+
+$(document).on("click",".delete",function(){
+$(this).parent().remove()
+})
+
+$("#clear").click(function(){
+$("#todo").empty()
+})
+
+</script>
+
+</body>
+</html>

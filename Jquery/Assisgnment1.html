@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Selectors</title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<style>
+.box{padding:10px;margin:5px;}
+</style>
+
+</head>
+
+<body>
+
+<h3 id="title">jQuery Selector Example</h3>
+
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+
+<table border="1">
+<tr><td>Row1</td></tr>
+<tr><td>Row2</td></tr>
+<tr><td>Row3</td></tr>
+<tr><td>Row4</td></tr>
+</table>
+
+<button id="run">Run jQuery</button>
+
+<script>
+
+$("#run").click(function(){
+
+$("p").css("color","blue")            // select p
+
+$("#title").css("background","yellow") // select id
+
+$(".box").css("border","2px solid red") // class
+
+$("li:first").css("color","green")
+
+$("li:last").css("color","orange")
+
+$("tr:even").hide()                  // hide even rows
+
+})
+
+</script>
+
+</body>
+</html>

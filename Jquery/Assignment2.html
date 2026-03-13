@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+<h2 id="heading">Hello</h2>
+
+<input type="text" id="name" value="Vikash">
+
+<ul id="list">
+<li>Task 1</li>
+</ul>
+
+<button id="changeText">Change Text</button>
+<button id="changeHtml">Change HTML</button>
+<button id="changeVal">Change Value</button>
+<button id="add">Append Item</button>
+<button id="remove">Remove Item</button>
+
+<script>
+
+$("#changeText").click(function(){
+$("#heading").text("Text Changed")
+})
+
+$("#changeHtml").click(function(){
+$("#heading").html("<b>Bold Heading</b>")
+})
+
+$("#changeVal").click(function(){
+$("#name").val("New Value")
+})
+
+$("#add").click(function(){
+$("#list").append("<li>New Task</li>")
+})
+
+$("#remove").click(function(){
+$("#list li:last").remove()
+})
+
+</script>
+
+</body>
+</html>
