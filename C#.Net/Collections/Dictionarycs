@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+
+public class Student
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Marks { get; set; }
+}
+
+class StudentManagement
+{
+    static void Main()
+    {
+        Dictionary<int, Student> students = new Dictionary<int, Student>
+        {
+            {1, new Student{Id=1, Name="Alice", Marks=80}},
+            {2, new Student{Id=2, Name="Bob", Marks=70}},
+            {3, new Student{Id=3, Name="Charlie", Marks=90}},
+            {4, new Student{Id=4, Name="David", Marks=60}},
+            {5, new Student{Id=5, Name="Eva", Marks=95}}
+        };
+
+        Console.WriteLine("Retrieve student with Id=3:");
+        Console.WriteLine($"{students[3].Name} - {students[3].Marks}");
+
+        Console.WriteLine("\nCheck if student with Id=2 exists:");
+        Console.WriteLine(students.ContainsKey(2) ? "Exists" : "Not Found");
+
+        Console.WriteLine("\nUpdate marks of student Id=4:");
+        students[4].Marks = 85;
+        Console.WriteLine($"{students[4].Name} - {students[4].Marks}");
+
+        Console.WriteLine("\nRemove student with Id=1:");
+        students.Remove(1);
+
+        Console.WriteLine("\nStudents scoring above 75:");
+        foreach (var s in students.Values)
+            if (s.Marks > 75) Console.WriteLine($"{s.Name} - {s.Marks}");
+    }
+}
