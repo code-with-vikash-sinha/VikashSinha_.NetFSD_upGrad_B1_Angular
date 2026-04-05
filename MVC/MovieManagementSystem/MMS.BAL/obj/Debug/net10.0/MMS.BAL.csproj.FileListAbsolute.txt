@@ -1,0 +1,15 @@
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\bin\Debug\net10.0\MMS.BAL.deps.json
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\bin\Debug\net10.0\MMS.BAL.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\bin\Debug\net10.0\MMS.BAL.pdb
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.AssemblyInfoInputs.cache
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.AssemblyInfo.cs
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.csproj.CoreCompileInputs.cache
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\refint\MMS.BAL.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.pdb
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\ref\MMS.BAL.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.csproj.AssemblyReference.cache
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\bin\Debug\net10.0\MMS.DLA.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\bin\Debug\net10.0\MMS.DLA.pdb
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.BAL\obj\Debug\net10.0\MMS.BAL.csproj.Up2Date

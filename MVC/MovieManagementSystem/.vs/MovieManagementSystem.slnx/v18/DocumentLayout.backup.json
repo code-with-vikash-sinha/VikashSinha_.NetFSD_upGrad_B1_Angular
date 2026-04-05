@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.mvc\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|solutionrelative:mms.mvc\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.mvc\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|solutionrelative:mms.mvc\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50FEF46F-4056-FA81-3222-552052159126}|MMS.BAL\\MMS.BAL.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.bal\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50FEF46F-4056-FA81-3222-552052159126}|MMS.BAL\\MMS.BAL.csproj|solutionrelative:mms.bal\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9329AD-E5B0-F97F-B090-249FC4E084BC}|MMS.DLA\\MMS.DLA.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.dla\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9329AD-E5B0-F97F-B090-249FC4E084BC}|MMS.DLA\\MMS.DLA.csproj|solutionrelative:mms.dla\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.mvc\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|solutionrelative:mms.mvc\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.mvc\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|solutionrelative:mms.mvc\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9329AD-E5B0-F97F-B090-249FC4E084BC}|MMS.DLA\\MMS.DLA.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.dla\\migrations\\20260405031701_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9329AD-E5B0-F97F-B090-249FC4E084BC}|MMS.DLA\\MMS.DLA.csproj|solutionrelative:mms.dla\\migrations\\20260405031701_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.mvc\\mms.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|solutionrelative:mms.mvc\\mms.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|d:\\.netfullstack\\c#.net\\handson\\moviemanagementsystem\\mms.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C26CC4B-9F10-7683-973B-20AFA4BCD109}|MMS.MVC\\MMS.MVC.csproj|solutionrelative:mms.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.BAL\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "MMS.BAL\\Services\\MovieService.cs",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.BAL\\Services\\MovieService.cs*",
+              "RelativeToolTip": "MMS.BAL\\Services\\MovieService.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwD4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T07:28:06.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "MMS.DLA\\Repositories\\MovieRepository.cs",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\Repositories\\MovieRepository.cs",
+              "RelativeToolTip": "MMS.DLA\\Repositories\\MovieRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwCcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:19:50.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Views\\Movie\\Create.cshtml",
+              "RelativeDocumentMoniker": "MMS.MVC\\Views\\Movie\\Create.cshtml",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Views\\Movie\\Create.cshtml",
+              "RelativeToolTip": "MMS.MVC\\Views\\Movie\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T03:58:06.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Views\\Movie\\Details.cshtml",
+              "RelativeDocumentMoniker": "MMS.MVC\\Views\\Movie\\Details.cshtml",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Views\\Movie\\Details.cshtml",
+              "RelativeToolTip": "MMS.MVC\\Views\\Movie\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T03:48:13.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260405031701_IntialCreate.cs",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\Migrations\\20260405031701_IntialCreate.cs",
+              "RelativeDocumentMoniker": "MMS.DLA\\Migrations\\20260405031701_IntialCreate.cs",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\Migrations\\20260405031701_IntialCreate.cs",
+              "RelativeToolTip": "MMS.DLA\\Migrations\\20260405031701_IntialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T03:17:01.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "MMS.MVC\\appsettings.json",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\appsettings.json",
+              "RelativeToolTip": "MMS.MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-05T02:52:40.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "MMS.MVC\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "MMS.MVC\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T02:50:08.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MMS.MVC",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\MMS.MVC.csproj",
+              "RelativeDocumentMoniker": "MMS.MVC\\MMS.MVC.csproj",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\MMS.MVC.csproj",
+              "RelativeToolTip": "MMS.MVC\\MMS.MVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-05T02:21:15.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MMS.MVC\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.MVC\\Controllers\\MovieController.cs*",
+              "RelativeToolTip": "MMS.MVC\\Controllers\\MovieController.cs*",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T02:23:48.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

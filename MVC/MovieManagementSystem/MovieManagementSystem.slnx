@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MMS.BAL/MMS.BAL.csproj" />
+  <Project Path="MMS.DLA/MMS.DLA.csproj" />
+  <Project Path="MMS.MVC/MMS.MVC.csproj" />
+</Solution>

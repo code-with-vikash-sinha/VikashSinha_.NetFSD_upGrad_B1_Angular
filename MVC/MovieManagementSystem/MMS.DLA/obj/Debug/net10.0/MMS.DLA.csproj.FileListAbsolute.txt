@@ -1,0 +1,14 @@
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\bin\Debug\net10.0\MMS.DLA.deps.json
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\bin\Debug\net10.0\MMS.DLA.runtimeconfig.json
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\bin\Debug\net10.0\MMS.DLA.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\bin\Debug\net10.0\MMS.DLA.pdb
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.csproj.AssemblyReference.cache
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.GeneratedMSBuildEditorConfig.editorconfig
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.AssemblyInfoInputs.cache
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.AssemblyInfo.cs
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.csproj.CoreCompileInputs.cache
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\refint\MMS.DLA.dll
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.pdb
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\MMS.DLA.genruntimeconfig.cache
+D:\.netFullStack\C#.Net\HandsOn\MovieManagementSystem\MMS.DLA\obj\Debug\net10.0\ref\MMS.DLA.dll
