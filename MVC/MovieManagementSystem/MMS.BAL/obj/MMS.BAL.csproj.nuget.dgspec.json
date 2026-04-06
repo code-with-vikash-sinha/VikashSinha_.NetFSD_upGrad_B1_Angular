@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj": {}
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj": {}
   },
   "projects": {
-    "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj": {
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj",
+        "projectUniqueName": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj",
         "projectName": "MMS.BAL",
-        "projectPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj",
+        "projectPath": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.BAL\\MMS.BAL.csproj",
         "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
-        "outputPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.BAL\\obj\\",
+        "outputPath": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.BAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,11 +30,10 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj": {
-                "projectPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj"
+              "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj": {
+                "projectPath": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj"
               }
             }
           }
@@ -53,7 +52,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -349,14 +347,14 @@
         }
       }
     },
-    "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj": {
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
+        "projectUniqueName": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
         "projectName": "MMS.DLA",
-        "projectPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
+        "projectPath": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
         "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
-        "outputPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\obj\\",
+        "outputPath": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -375,7 +373,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -394,7 +391,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {

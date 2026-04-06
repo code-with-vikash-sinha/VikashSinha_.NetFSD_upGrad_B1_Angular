@@ -3664,11 +3664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
+      "projectUniqueName": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
       "projectName": "MMS.DLA",
-      "projectPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
+      "projectPath": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\MMS.DLA.csproj",
       "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
-      "outputPath": "D:\\.netFullStack\\C#.Net\\HandsOn\\MovieManagementSystem\\MMS.DLA\\obj\\",
+      "outputPath": "C:\\Users\\vikas\\OneDrive\\Desktop\\VikashSinha_.NetFSD_upGrad_B1_Angular\\MVC\\MovieManagementSystem\\MMS.DLA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3687,7 +3687,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -3706,7 +3705,6 @@
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
