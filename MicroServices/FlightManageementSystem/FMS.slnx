@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FMS.BookingService/FMS.BookingService.csproj" />
+  <Project Path="FMS.FlightService/FMS.FlightService.csproj" />
+  <Project Path="FMS.Gateway/FMS.Gateway.csproj" />
+  <Project Path="FMS.PassengerService/FMS.PassengerService.csproj" />
+</Solution>

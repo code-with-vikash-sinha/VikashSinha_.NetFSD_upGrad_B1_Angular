@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FMS.BookingService\\FMS.BookingService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FMS.FlightService\\FMS.FlightService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FMS.PassengerService\\FMS.PassengerService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FMS.Gateway\\FMS.Gateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
